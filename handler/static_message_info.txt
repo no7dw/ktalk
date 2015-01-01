@@ -1,0 +1,17 @@
+鉴于要统计机器人回答的问题效果：
+
+ktalk_message 做出了新的字段（用户的问题类型 req.askType，回答来源 res.AnsType）调整：
+1.增加了 req.askType问题类型（暂时粗分，日后完善）
+  1.电商类
+  2.非电商类
+2.res.AnsType回答来源类型
+  1.用户设定的回复 user_
+  2.小编设定的回复 editor_
+  3.系统设定的回复 sys_default
+  4.小黄鸡的回复 【其它】
+  5.用户默认的回复 user_defaults
+  6. 系统默认的回复(用户没有设定默认回复) default_cbd_ or sys_default
+
+判定的规则根据handler的name。具体命名方式见代码apps/ktalk/apis/handler.coffee ResponseType函数
+
+【更新文档的时候最好注上这些前缀，免得一个个对起来比较麻烦】

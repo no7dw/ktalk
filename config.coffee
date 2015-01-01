@@ -1,0 +1,6 @@
+module.exports =
+    patternList :
+        wxt : ['taobao', 'custom', 'simsimi', 'plugins']
+        wjb : ['clip']
+        cbd : ['cbd', 'simsimi','activity']
+    weixinFaces : ["/::)", "/::~", "/::b", "/::|", "/:8-)", "/::<", "/::$", "/::x", "/::z", "/::\'(", "/::-|", "/::@", "/::p", "/::d", "/::o", "/::(", "/::+", "/:--b", "/::q", "/::t", "/:,@p", "/:,@-d", "/::d", "/:,@o", "/::g", "/:|-)", "/::!", "/::l", "/::>", "/::,@", "/:,@f", "/::-s", "/:?", "/:,@x", "/:,@@", "/::8", "/:,@!", "/:!!!", "/:xx", "/:bye", "/:wipe", "/:dig", "/:handclap", "/:&-(", "/:b-)", "/:<@", "/:@>", "/::-o", "/:>-|", "/:p-(", "/::\'|", "/:x-)", "/::*", "/:@x", "/:8*", "/:pd", "/:<w>", "/:beer", "/:basketb", "/:oo", "/:coffee", "/:eat", "/:pig", "/:rose", "/:fade", "/:showlove", "/:heart", "/:break", "/:cake", "/:li", "/:bome", "/:kn", "/:footb", "/:ladybug", "/:shit", "/:moon", "/:sun", "/:gift", "/:hug", "/:strong", "/:weak", "/:share", "/:v", "/:@)", "/:jj", "/:@@", "/:bad", "/:lvu", "/:no", "/:ok", "/:love", "/:<l>", "/:jump", "/:shake", "/:<o>", "/:circle", "/:kotow", "/:turn", "/:skip", "/:oy", "/:#-0", "/:hiphot", "/:kiss", "/:<&", "/:&>"]
